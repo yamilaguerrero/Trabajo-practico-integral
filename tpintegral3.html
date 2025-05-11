@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de registro-Mi web</title>
+</head>
+<body>
+    <h2><p>Registro - Mi web</p></h2>
+    <form method="get" accion="#">
+        
+            <table>
+               <tr> 
+                <td>Nombres: <input type="text" name="Nombre" required placeholder="Nombre"></td>
+                <td></td>
+                <td>Apellidos: <input type="text" name="Apellido" required placeholder="Apellido"></td> 
+                </tr>
+               
+            </table>
+            Sexo<br> Hombre <input type="radio" name="sexo" value="H"> <br> Mujer <input type="radio" name="sexo" value="M">
+            <table>
+                   <tr>
+                    <td>Correo electronico: <input type="text" name="mail" required placeholder="ejemplo@gmail.cpm"></td>
+                   </tr>
+            </table> 
+            <table>
+                <tr>
+                    <td><h3>Terminos y condiciones</h3>
+                    <input type="checkbox" value="acepto" name="condiciones" required>Deseo recibir informacion sobre novedades y ofertas.</td>
+                   </tr>
+            </table>
+            <table>    
+                   <tr>
+                    <td><td><input type="checkbox" value="acepto" name="condiciones" required>Declaro haber leido los  <a href="tpintegral3a.html"> terminos y condiciones generales</a> del programa y la normativa sobre proteccion de datos.</td></td>
+                   </tr>
+            </table>
+            <br>
+            Elige una opcion:
+                    <select><datalist id="Listado">
+                        <option value="Argentina">Argentina</option>
+                        <option value="Brasil">Chile</option>
+                        <option value="Chile">Brasil</option>
+                        <option value="Bolivia">Bolivia</option>
+                        <option value="Peru">Peru</option>
+                        <option value="Uruguay">Uruguay</option>
+                        <option value="Colombia">Ecuador</option>
+                        <option value="Ecuador">Colombia</option>
+                        <option value="Venezuela">Venezuela</option>
+                        <option value="Paraguay">Paraguay</option></select>
+            </datalist>
+           <br><br>
+            Contraseña: <input type="password" name="contraseña" required placeholder="Contraseña">
+            Repetir Contraseña: <input type="password" name="contraseña" required placeholder="Contraseña">
+            <br><br>
+            Estado civil:
+            <select><datalist id="Listado">
+                <option value="Soltero/a">Soltero/a</option>
+                <option value="Casado/a">Casado/</option>
+                <option value="Divorciado/a">Divorciado/a</option>
+                <option value="Separado/a">Separado/a</option>
+                <option value="Viudo/a">Viudo/a</option></select>
+            </datalist>
+            <br><br>
+            <table>
+                <tr>
+                    <td><input type="text" name="provincia" required placeholder="provincia"></td>
+                    <td> </td>
+                    <td><input type="text" name="ciudad" required placeholder="ciudad/localidad"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="direccion" required placeholder= direccion></td>
+                    <td></td>
+                    <td><input type="number" name="numero" required placeholder="numero"></td>
+                    <td></td>
+                    <td><input type="text" name="departamento" placeholder="departamento"></td>
+                </tr>
+            </table>
+            <br><br>
+            <input type="submit" name="Enviar Formulario"
+        
+        </body>
+
+</html>
